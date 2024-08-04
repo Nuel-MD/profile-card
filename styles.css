@@ -1,0 +1,75 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+    background-size: 50%, 50%;
+    background-repeat: no-repeat;
+    background-position:  top -500px left , bottom -500px right ; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.container {
+    background-color: white;
+    min-width: 320px;
+    padding-top: 25px;
+    ;
+    border-radius: 15px;
+    min-height: 370px;
+    background-image: url('./images/bg-pattern-card.svg');
+    text-align: center;
+    background-size: 320px 150px;
+    background-repeat: no-repeat;
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 75px;
+    border: 5px solid white;
+}
+.name {
+    font-size: 22px;
+    font-weight: bolder;
+    color:hsl(229, 23%, 23%);
+
+}
+
+span {
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+#london {
+    font-weight: 400;
+    font-size: 20px;
+    color: hsl(227, 10%, 46%);
+    
+}
+hr {
+    padding: 0px;
+    margin: 0px;
+    height: 1px;
+    background-color: hsla(0, 0%, 59%, 0.2);
+    border: 0px;
+
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+.top{
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.bottom{
+    font: 400;
+    font-size: 16px;
+    color: hsl(0, 0%, 59%);
+}
